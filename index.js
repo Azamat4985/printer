@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			isExpandedInfo = true;
 		} else {
 			infoBox.style.height = '10em';
-			expandInfoBtn.textContent = 'Закрыть';
-			isExpandedInfo = true;
+			expandInfoBtn.textContent = 'Раскрыть';
+			isExpandedInfo = false;
 		}
 	})
 
