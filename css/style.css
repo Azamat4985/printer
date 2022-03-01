@@ -127,7 +127,7 @@ footer {
   }
 
   .header {
-	  
+
     flex-direction: column;
 
   }
@@ -154,5 +154,9 @@ footer {
   }
   .swiper {
     height: 200px;
+  }
+  .about__title{
+	  font-size: 20px;
+	  margin-bottom: 5px!important;
   }
 }
