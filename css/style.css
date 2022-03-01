@@ -126,8 +126,11 @@ footer {
     margin-bottom: 10px;
   }
 
-  header {
+  .header {
     flex-direction: column;
+  }
+
+  header {
     padding: 20px 0px;
   }
 
@@ -135,17 +138,17 @@ footer {
     padding: 40px;
   }
 
-  .contacts__list{
-	  flex-direction: column
+  .contacts__list {
+    flex-direction: column;
   }
 
-  .mb-5{
-	  margin-bottom: 20px!important;
+  .mb-5 {
+    margin-bottom: 20px !important;
   }
 }
 @media (max-width: 375px) {
-  body{
-	  font-size: 10px;
+  body {
+    font-size: 10px;
   }
   .swiper {
     height: 200px;
