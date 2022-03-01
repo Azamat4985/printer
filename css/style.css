@@ -127,8 +127,9 @@ footer {
   }
 
   .header {
+	  
     flex-direction: column;
-	
+
   }
 
   header {
