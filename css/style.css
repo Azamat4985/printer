@@ -158,5 +158,6 @@ footer {
   .about__title{
 	  font-size: 20px;
 	  margin-bottom: 5px!important;
+	  word-wrap: break-word;
   }
 }
