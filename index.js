@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	expandInfoBtn.addEventListener('click', () => {
 		if(!isExpandedInfo) {
 			infoBox.style.height = '100%';
-			expandInfoBtn.textContent = 'Закрыть';
+			expandInfoBtn.textContent = 'Shrink';
 			isExpandedInfo = true;
 		} else {
 			infoBox.style.height = '10em';
-			expandInfoBtn.textContent = 'Раскрыть';
+			expandInfoBtn.textContent = 'Expand';
 			isExpandedInfo = false;
 		}
 	})
